@@ -7,7 +7,6 @@ const vapIdKey = {
 
 push.setVapidDetails('mailto:fkake123@gmail.com',vapIdKey.publicKey,vapIdKey.privateKey)
 
-let sub = {"endpoint":"https://fcm.googleapis.com/fcm/send/d8USlcznS04:APA91bH0QoDPP_1U-AFOgOLAxXskMS8lv3imdfqMdKrkZyZslEdDpL7vuAN4Jv9LRaZ4gmxkLdj442qVHCCcO8JCZajI7HgNNo8CdxU-vG5pwCgr2BE0B5OQqXGmVPNADzl3furt0dU9","expirationTime":null,"keys":{"p256dh":"BOxefrsyJzq5fk4FscHx6NfuVxKGoLkg9k45Mkwq0PYOCS_LnQXRhcEeHU0HiQLX6thSOr6CwU3-GSwnh1zWCks","auth":"snRGJvxKVajjl8URZm-ANg"}}
-
-push.sendNotification(sub,'my message --------aaaaaaaaaaaaaaaa')
+let sub = {"endpoint":"https://fcm.googleapis.com/fcm/send/eQy0ouBKZyQ:APA91bFadbYQU8o7FfhXgbxOcm9OoAXhYc82jm_erVylnXwd6HAfvq3LXzw4S5t0jAMF5u0kMWa5qBZYS9sAzt8E0K6JHS2Q37hBuKCF9qAPOhdk132MFJpZO6GS8bN83-Q5lHB2nr3F","expirationTime":null,"keys":{"p256dh":"BL9s-UDOezgNAxVMWcRYntN4NUvRp05_92No__rOkcNTKLW70BAR895o_stTS30q8967E34EQqP2P7bFZpqwR-I","auth":"zJwSHqaY_N3w2gu_0Kb0Kw"}}
+push.sendNotification(sub,)
 
